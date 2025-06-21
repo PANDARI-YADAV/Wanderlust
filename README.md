@@ -7,67 +7,67 @@ Wanderlust is a full-stack Stay & Travel Booking platform where users can explor
 
 This project follows the **MVC pattern**:
 
-```bash
-wanderlust/
-├── app.js
-├── .env
-├── .gitignore
-├── cloudConfig.js
-├── middleware.js
-├── schema.js
-├── package.json
-├── package-lock.json
-
-├── controllers/
-│   ├── listings.js
-│   ├── reviews.js
-│   └── users.js
-│
-├── init/
-│   ├── data.js
-│   └── index.js
-│
-├── models/
-│   ├── listing.js
-│   ├── review.js
-│   └── user.js
-│
-├── public/
-│   ├── css/
-│   │   ├── rating.css
-│   │   └── style.css
-│   └── js/
-│       ├── map.js
-│       └── script.js
-│
-├── routes/
-│   ├── listing.js
-│   ├── review.js
-│   └── user.js
-│
-├── sample images/
-│
-├── utils/
-│   ├── ExpressError.js
-│   └── wrapAsync.js
-│
-├── views/
-│   ├── includes/
-│   │   ├── flash.ejs
-│   │   ├── footer.ejs
-│   │   └── navbar.ejs
-│   ├── layouts/
-│   │   └── boilerplate.ejs
-│   ├── listings/
-│   │   ├── edit.ejs
-│   │   ├── index.ejs
-│   │   ├── new.ejs
-│   │   ├── payment.ejs
-│   │   └── show.ejs
-│   ├── users/
-│   │   ├── login.ejs
-│   │   └── signup.ejs
-│   └── error.ejs
+    ```bash
+    wanderlust/
+    ├── app.js
+    ├── .env
+    ├── .gitignore
+    ├── cloudConfig.js
+    ├── middleware.js
+    ├── schema.js
+    ├── package.json
+    ├── package-lock.json
+    
+    ├── controllers/
+    │   ├── listings.js
+    │   ├── reviews.js
+    │   └── users.js
+    │
+    ├── init/
+    │   ├── data.js
+    │   └── index.js
+    │
+    ├── models/
+    │   ├── listing.js
+    │   ├── review.js
+    │   └── user.js
+    │
+    ├── public/
+    │   ├── css/
+    │   │   ├── rating.css
+    │   │   └── style.css
+    │   └── js/
+    │       ├── map.js
+    │       └── script.js
+    │
+    ├── routes/
+    │   ├── listing.js
+    │   ├── review.js
+    │   └── user.js
+    │
+    ├── sample images/
+    │
+    ├── utils/
+    │   ├── ExpressError.js
+    │   └── wrapAsync.js
+    │
+    ├── views/
+    │   ├── includes/
+    │   │   ├── flash.ejs
+    │   │   ├── footer.ejs
+    │   │   └── navbar.ejs
+    │   ├── layouts/
+    │   │   └── boilerplate.ejs
+    │   ├── listings/
+    │   │   ├── edit.ejs
+    │   │   ├── index.ejs
+    │   │   ├── new.ejs
+    │   │   ├── payment.ejs
+    │   │   └── show.ejs
+    │   ├── users/
+    │   │   ├── login.ejs
+    │   │   └── signup.ejs
+    │   └── error.ejs
 
 ---
 
