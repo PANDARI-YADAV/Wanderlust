@@ -1,0 +1,78 @@
+
+  <% layout("/layouts/boilerplate") %>
+  <style>
+    .panel {
+      margin-top: 60px;
+      border-radius: 8px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .summary-box {
+      background-color: #428bca;
+      color: white;
+      padding: 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .payment-btn {
+      font-size: 20px;
+      padding: 12px;
+      border-radius: 6px;
+    }
+  </style>
+<div class="container bg-light">
+  <div class="row justify-content-center">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-5">
+      <div class="panel panel-default">
+        <div class="panel-heading clearfix">
+          <h3 class="panel-title pull-left">Payment Details</h3>
+          <div class="checkbox pull-right">
+            <label><input type="checkbox"> Remember</label>
+          </div>
+        </div>
+
+        <div class="panel-body">
+          <form>
+            <div class="form-group">
+              <label for="cardNumber">CARD NUMBER</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number" required>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>EXPIRY DATE</label>
+              <div class="row">
+                <div class="col-xs-6">
+                  <input type="text" class="form-control" placeholder="MM" required>
+                </div>
+                <div class="col-xs-6">
+                  <input type="text" class="form-control" placeholder="YY" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="cvCode">CV CODE</label>
+              <input type="password" class="form-control" id="cvCode" placeholder="CV" required>
+            </div>
+
+            
+            <div class="summary-box">
+              <span>Final Payment</span>
+              <span class="label label-default" style="font-size: 16px;">₹<%=listing.price%></span>
+            </div>
+
+            <button type="submit" class="btn btn-success btn-lg btn-block payment-btn">Pay</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
