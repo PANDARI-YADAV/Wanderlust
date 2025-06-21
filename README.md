@@ -7,17 +7,7 @@ Wanderlust is a full-stack Stay & Travel Booking platform where users can explor
 
 This project follows the **MVC pattern**:
 
-    ```bash
-    wanderlust/
-    ├── app.js
-    ├── .env
-    ├── .gitignore
-    ├── cloudConfig.js
-    ├── middleware.js
-    ├── schema.js
-    ├── package.json
-    ├── package-lock.json
-    
+    wanderlust/    
     ├── controllers/
     │   ├── listings.js
     │   ├── reviews.js
@@ -68,6 +58,14 @@ This project follows the **MVC pattern**:
     │   │   ├── login.ejs
     │   │   └── signup.ejs
     │   └── error.ejs
+    ├── app.js
+    ├── .env
+    ├── .gitignore
+    ├── cloudConfig.js
+    ├── middleware.js
+    ├── schema.js
+    ├── package.json
+    ├── package-lock.json
 
 ---
 
