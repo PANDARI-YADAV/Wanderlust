@@ -1,4 +1,4 @@
-# 🌍 Wanderlust – Travel Booking Web App (MVC Architecture)
+# 🌍 Wanderlust – Stay & Travel Booking Platform   (MVC Architecture)
 
 Wanderlust is a full-stack Stay & Travel Booking platform where users can explore, create, and book travel destinations. Built using the **MVC pattern**, it features user authentication, review system, secure image uploads, live maps, and full CRUD capabilities — all fully validated and deployed online.
 🔗 **Live Demo**: [https://wanderlust-project-krp0.onrender.com](https://wanderlust-project-krp0.onrender.com)
