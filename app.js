@@ -102,10 +102,14 @@ app.use("/listings",listingRouter);
 app.use("/listings/:id/reviews",reviewRouter);
 app.use("/",userRouter);
 
+app.get("/",(req,res)=>{
+  res.redirect("/listings");
+})
+
 // 404 Handler (this line is OK!)
-app.all("/{any}", (req, res, next) => {
-  next(new ExpressError(404, "Page Not Found!"));
-});
+// app.all("*", (req, res, next) => {
+//   next(new ExpressError(404, "Page Not Found!"));
+// });
 
 app.use((err,req,res,next)=>{
   let {statusCode=500 , message="something went wrong"}=err;
