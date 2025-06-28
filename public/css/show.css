@@ -1,0 +1,102 @@
+/* ===== Reset some basic styles ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding-bottom: 50px;
+}
+
+/* ===== Title Section ===== */
+.section-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.4rem;
+  text-align: center;
+}
+
+/* ===== Listing Card ===== */
+.show-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+}
+
+.show-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ===== Text Formatting ===== */
+.card-text i {
+  color: #666;
+  font-style: italic;
+}
+
+/* ===== Button Styling ===== */
+.btn-book {
+  background-color: #fe424d !important;
+  color: white !important;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-book:hover {
+  background-color: #d8323b !important;
+}
+
+/* ===== Review Cards ===== */
+.card.review-card {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.card.review-card .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card.review-card .card-text {
+  font-size: 0.95rem;
+}
+
+/* ===== Map Styling ===== */
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 1rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* ===== Responsive Layout ===== */
+@media (max-width: 768px) {
+  .show-card {
+    margin: 0 auto;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btns form,
+  .btns a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .col-8.offset-3,
+  .col-6.offset-3 {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
